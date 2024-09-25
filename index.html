@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayan Banik</title>
+
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    
+    <!-- navigation menu -->
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <div class="container nav-container">
+            <a class="navbar-brand me-auto" href="./index.html">Ayan Banik</a>
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div 
+                class="offcanvas offcanvas-end text-bg-dark" 
+                tabindex="-1" 
+                id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                        Ayan Banik
+                    </h5>
+                    <button 
+                        type="button" 
+                        class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Porfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about_me">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./ayan_cv.pdf" download="">
+                                <button class="btn btn-primary" type="submit" target="">
+                                    Resume <i class="bi bi-download"></i>
+                                </button>
+                            </a>
+                        </li>
+                        
+                        
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero section -->
+    <section id="hero" class="hero-section bg-dark">
+
+        <div class="container">
+            <div class="row align-items-center justify-content">
+                
+                <div class="col-lg-6">
+                    <div class="hero-details text-center text-lg-start text-white">
+                        <h1><span class="text-primary">HI !</span></h1>
+                        <h1><span class="text-primary">I AM AYAN BANIK</span></h1>
+                        <p class="lead">Web Developer || Problem Solver</p>
+                        <p>I possess a robust academic background and a solid grasp of key technical skills, including object oriented programming (OOP), web development, and database management.</p>
+                        
+                        <div class="container py-3 d-flex justify-content-between align-items-center">
+                            <a href="https://github.com/ayanbanik2310/" target="_blank"><i class="bi bi-github text-primary"></i></a>
+                            <a href="https://www.facebook.com/ayanbanik28/" target="_blank"><i class="bi bi-facebook text-primary"></i></a>
+                            <a href="https://www.linkedin.com/in/ayan-banik-b840352b0/" target="_blank"><i class="bi bi-linkedin text-primary"></i></a>
+                            <a href="./ayan_cv.pdf" download="">
+                                <button class="btn btn-primary" type="submit" target="">
+                                    Resume <i class="bi bi-download"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>    
+                </div>
+
+                <div class="col-lg-6 pt-4 pt-lg-0">
+                    <div class="hero-img text-center">
+                        <img src="./images/me.png" class="hero-img-des img-fluid" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- portfolio section -->
+    <section id="portfolio" class="bg-dark text-white">
+        <h1 class="h1 text-center text-primary py-3">Portfolio</h1>
+        <div class="container port-container">
+            <div class="container">
+                <div id="customCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                  
+                      <!-- First slide -->
+                      <div class="carousel-item active">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <img src="./images/project1.png" class="d-block w-100" alt="First Slide Image">
+                          </div>
+                          <div class="col-md-6 details bg-dark text-white">
+                            <div>
+                              <h3>Project 1</h3>
+                              <p>Simple website design of an Ed-Tech company which thoughts basics of web design using HTML, CSS, Bootstrap.</p>
+                              <a href="https://lucent-croquembouche-815669.netlify.app/" target="_blank" class="btn btn-primary mb-2">Live-link</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  
+                      <!-- Second slide -->
+                      <div class="carousel-item">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <img src="./images/project2.png" class="d-block w-100" alt="Second Slide Image">
+                          </div>
+                          <div class="col-md-6 details bg-dark text-white">
+                            <div>
+                              <h3>Project 2</h3>
+                              <p>A responsive NavBar Design with hero section using HTML, CSS, Bootstrap.</p>
+                              <a href="https://chimerical-gecko-ea860a.netlify.app/" target="_blank" class="btn btn-primary mb-2">Live-link</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- third slide -->
+                      <div class="carousel-item">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <img src="./images/project3.png" class="d-block w-100" alt="Second Slide Image">
+                          </div>
+                          <div class="col-md-6 details bg-dark text-white">
+                            <div>
+                              <h3>Project 3</h3>
+                              <p>A security company website design using HTML, CSS.</p>
+                              <a href="https://animated-babka-8862b6.netlify.app/" target="_blank" class="btn btn-primary mb-2">Live-link</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- fourth slide -->
+                      <div class="carousel-item">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <img src="./images/project4.png" class="d-block w-100" alt="Second Slide Image">
+                          </div>
+                          <div class="col-md-6 details bg-dark text-white">
+                            <div>
+                              <h3>Project 4</h3>
+                              <p>A simple portfolio design made with HTML, CSS.</p>
+                              <a href="https://transcendent-cranachan-205686.netlify.app/" target="_blank" class="btn btn-primary mb-2">Live-link</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  
+                      <!-- Add more slides as needed -->
+                  
+                    </div>
+                    <!-- Carousel Controls -->
+                    <a class="carousel-control-prev" href="#customCarousel" role="button" data-slide="prev">
+                        <h1 class="h1"><i class="bi bi-arrow-left-circle-fill"></i></h1>
+                    </a>
+                    <a class="carousel-control-next" href="#customCarousel" role="button" data-slide="next">
+                        <h1 class="h1"><i class="bi bi-arrow-right-circle-fill"></i></h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills -->
+    <section id="about_me" class="bg-dark text-white">
+        <div class="container">
+            <h1 class="h1 text-center text-primary pt-5 pb-4">About Me</h1>
+
+            <div class="row align-items-center justify-content">
+                
+                <div class="col-lg-6">
+                    <h3 class="h3 text-center text-white pt-5 pb-4">Expertise</h3>
+                    <div class="container d-flex flex-wrap justify-content-around">
+                        <p class="skills lead">CPP</p>
+                        <p class="skills lead">HTML</p>
+                        <p class="skills lead">CSS</p>
+                        <p class="skills lead">Bootstrap</p>
+                        <p class="skills lead">SQL</p>
+                        <p class="skills lead">Python</p>
+                        <p class="skills lead">Django</p>
+                    </div>
+
+                    <h3 class="h3 text-center text-white pt-5 pb-4">Familiar</h3>
+                    <div class="container d-flex flex-wrap justify-content-around">
+                        <p class="skills lead">Tailwind</p>
+                        <p class="skills lead">Javascript</p>
+                        <p class="skills lead">MongoDB</p>
+                        <p class="skills lead">Dart</p>
+                        <p class="skills lead">Firebase</p>
+                        <p class="skills lead">Flutter</p>
+                    </div>
+
+                    <h3 class="h3 text-center text-white pt-5 pb-4">Tools</h3>
+                    <div class="container d-flex flex-wrap justify-content-around">
+                        <p class="skills lead">VS Code</p>
+                        <p class="skills lead">Git</p>
+                        <p class="skills lead">Github</p>
+                        <p class="skills lead">MySQL</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 pt-4 pt-lg-0">
+                    <h3 class="h3 text-center text-primary pt-5 pb-4">My Education</h3>
+                    <p class="text-center lead">B.Sc in Computer Science and Engineering <br> Sylhet Engineering College <br> Sylhet, Bangldesh</p>
+                    <p class="text-center">2022-2026</p>
+                </div>
+        </div>
+    </section>
+
+    <!-- contact me -->
+    <section id="contact" class="bg-dark text-white">
+        <div class="container">
+            <h1 class="h1 text-center text-primary pt-5 pb-4">Contact</h1>
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-6">
+                    <div class="mb-3">
+                        <input type="email" class="form-control w-100" id="exampleFormControlInput1" placeholder="Enter Your Name">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <input type="email" class="form-control w-100" id="exampleFormControlInput1" placeholder="Enter Your Email">
+                    </div>
+        
+                    <div class="mb-3">
+                        <textarea class="form-control w-100" id="exampleFormControlTextarea1" rows="3" placeholder="Enter Your Message"></textarea>
+                        
+                    </div>
+
+                    <a href="#" class="btn btn-primary btn-lg mb-3">Send</a>
+                    
+                </div>
+                
+            
+
+            </div>
+
+            
+
+        </div>
+    </section>  
+
+    <!-- footer -->
+     <section id="footer" class="bg-dark text-white">
+        <div class="container text-center">
+            <p class="lead">Copyright &copy; 2024 | Ayan Banik</p>
+            <p class="lead">Sylhet, Bangladesh</p>
+            <div class="container d-flex justify-content-center align-items-center logo"></div>
+                <a href="https://github.com/ayanbanik2310/" target="_blank"><i class="bi bi-github text-primary mx-3"></i></a>
+                <a href="https://www.facebook.com/ayanbanik28/" target="_blank"><i class="bi bi-facebook text-primary mx-3"></i></a>
+                <a href="https://www.linkedin.com/in/ayan-banik-b840352b0/" target="_blank"><i class="bi bi-linkedin text-primary mx-3"></i></a>
+            </div>
+        </div>
+     </section>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
